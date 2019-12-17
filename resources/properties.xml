@@ -1,0 +1,22 @@
+<resources>
+	<properties>
+		<property id="multiLine1" type="string">500 free Warmup</property>
+	</properties>
+	
+  	<strings>
+  		<string id="AppName">MultiLine</string>
+		<string id="label">My Value</string>
+  		<!-- For Settings -->
+		<string id="string_title">List Line 1</string>
+	</strings>
+	<settings>
+
+    <setting propertyKey="@Properties.multiLine1" title="@Strings.string_title"><settingConfig type="alphaNumeric" /></setting>
+    
+
+    
+
+</settings>
+	
+ </resources>
+ 
